@@ -47,13 +47,13 @@ async def rename_message_f(client, message):
     inline_keyboard = []
     inline_keyboard.append([
         pyrogram.InlineKeyboardButton(
-            text="read this?",
-            url="https://t.me/keralagram/698909"
+            text="Please Read This!",
+            url="https://t.me/InFoTelGroup/215550"
         )
     ])
     reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
     await message.reply_text(
-        "please use @renamebot",
+        "Please use This Bot For That Feature 🔥 @renamebot 🔥",
         quote=True,
         reply_markup=reply_markup
     )
