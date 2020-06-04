@@ -33,12 +33,12 @@ async def new_join_f(client, message):
 
 
 async def help_message_f(client, message):
-    # await message.reply_text("no one gonna help you 🤣🤣🤣🤣", quote=True)
+    # await message.reply_text("Please Check Pinned Message For Any Help🔥!", quote=True)
     channel_id = str(AUTH_CHANNEL)[4:]
     message_id = 99
     # display the /help message
     await message.reply_text(
-        f"Hai,Mate How Are You? Don't Leech Porn",
+        f"Hai,Bro How Are You? Don't Leech Porn Or Dead Torrent And Thank You For Visiting Us!!",
         quote=True
     )
 
